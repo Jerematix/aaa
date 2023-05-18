@@ -5,3 +5,6 @@ seaborn
 numpy
 requests
 fastparquet
+h3pandas
+folium
+geopandas
