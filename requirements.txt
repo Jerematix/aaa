@@ -8,3 +8,5 @@ fastparquet
 h3pandas
 folium
 geopandas
+pyproj
+pyarrow
