@@ -1,0 +1,22 @@
+{
+  "sustenance": {
+    "filename": "sustenance_pois.json",
+    "query": "[out:json];\narea[name = \"Chicago\"]->.a;\n(\n    node(area.a)[amenity=bar];\n    node(area.a)[amenity=restaurant];\n    node(area.a)[amenity=pub];\n    node(area.a)[amenity=ice_cream];\n    node(area.a)[amenity=food_court];\n    node(area.a)[amenity=fast_food];\n    node(area.a)[amenity=biergarten];\n    node(area.a)[amenity=cafe];\n);\nout;\n"
+  },
+  "public_transport": {
+    "filename": "public_transport_pois.json",
+    "query": "[out:json];\narea[name = \"Chicago\"]->.a;\n(\n    node(area.a)[public_transport=station];\n    node(area.a)[public_transport=stop_position];\n);\nout; "
+  },
+  "education": {
+    "filename": "education_pois.json",
+    "query": "[out:json];\narea[name = \"Chicago\"]->.a;\n(\n    node(area.a)[amenity=college];\n    node(area.a)[amenity=library];\n    node(area.a)[amenity=driving_school];\n    node(area.a)[amenity=language_school];\n    node(area.a)[amenity=music_school];\n    node(area.a)[amenity=school];\n    node(area.a)[amenity=university];\n);\nout; "
+  },
+  "arts_and_culture": {
+    "filename": "arts_and_culture_pois.json",
+    "query": "[out:json];\narea[name = \"Chicago\"]->.a;\n(\n    node(area.a)[amenity=arts_centre];\n    node(area.a)[amenity=theatre];\n    node(area.a)[amenity=cinema];\n);\nout;"
+  },
+  "sports": {
+    "filename": "sports.json",
+    "query": "[out:json];\narea[name = \"Chicago\"]->.a;\n(\n    node(area.a)[leisure=fitness_station];\n    node(area.a)[leisure=fitness_centre];\n    node(area.a)[leisure=sports_centre];\n    node(area.a)[leisure=swimming_area];\n    node(area.a)[leisure=swimming_pool];\n);\nout;"
+  }
+}

@@ -1,4 +1,3 @@
 /.idea
 /venv
-/data/Taxi_Trips.parquet
-/data/Taxi_Trips_Cleaned.parquet
+/data/rides
