@@ -13,3 +13,4 @@ geopandas
 pyproj
 pyarrow
 osm2geojson
+plotly
