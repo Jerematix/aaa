@@ -14,3 +14,5 @@ pyproj
 pyarrow
 osm2geojson
 plotly
+torch
+torchvision
