@@ -8,11 +8,14 @@ numpy
 requests
 fastparquet
 h3pandas
+h3
 folium
 geopandas
 pyproj
 pyarrow
 osm2geojson
+geojson
 plotly
 torch
 torchvision
+shapely
