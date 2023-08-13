@@ -1,0 +1,27 @@
+layer_nodes,learning_rate,dropout,activation,optimizer,epochs,batch_size,mae,mse
+"[64, 32, 16]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,157.42723693847657,186111.196875
+"[32, 16, 16]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,169.7109619140625,208546.715625
+"[64, 32]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,160.3052947998047,193158.209375
+"[32, 16]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,165.2703430175781,200889.571875
+"[16, 8]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,217.7407653808594,303064.471875
+"[64, 64, 32, 16]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,149.11842041015626,172894.928125
+"[64, 32, 16, 8]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,275.7609405517578,1057473.90625
+"[32, 16, 8]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,161.6173065185547,200028.878125
+"[64, 64, 32, 16]",0.0001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,160.68458557128906,188900.03125
+"[64, 64, 32, 16]",0.0001,0.01,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,154.28713989257812,185020.05
+"[64, 64, 32, 16]",0.0001,0.1,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,164.3125427246094,201735.915625
+"[64, 64, 32, 16]",0.001,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,152.85955505371095,183497.640625
+"[64, 64, 32, 16]",0.001,0.01,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,145.98077392578125,169381.8875
+"[64, 64, 32, 16]",0.001,0.1,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,151.60852661132813,175261.959375
+"[64, 64, 32, 16]",0.01,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,139.3986328125,167650.65625
+"[64, 64, 32, 16]",0.01,0.01,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,142.84066467285157,171502.740625
+"[64, 64, 32, 16]",0.01,0.1,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,148.5319793701172,180072.459375
+"[64, 64, 32, 16]",0.1,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,175.39296875,190759.653125
+"[64, 64, 32, 16]",0.1,0.01,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,316.7886962890625,1094878.609375
+"[64, 64, 32, 16]",0.1,0.1,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,256.5367767333984,354234.79375
+"[64, 64, 32, 16]",0.01,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,145.3842041015625,172510.2875
+"[64, 64, 32, 16]",0.01,0.0,sigmoid,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,32,932.085107421875,4569136.0
+"[64, 64, 32, 16]",0.01,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,8,142.19451599121095,171322.490625
+"[64, 64, 32, 16]",0.01,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,16,137.83330383300782,170024.975
+"[64, 64, 32, 16]",0.01,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,64,267.70000915527345,1047602.134375
+"[64, 64, 32, 16]",0.01,0.0,relu,<class 'keras.src.optimizers.legacy.rmsprop.RMSprop'>,1000,128,137.8082733154297,163363.228125
