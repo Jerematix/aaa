@@ -2,6 +2,8 @@ jupyter
 pandas
 sklearn
 scikit-learn
+tensorflow
+keras
 matplotlib
 seaborn
 numpy
@@ -19,4 +21,7 @@ plotly
 torch
 torchvision
 shapely
+gym
+random
+keras-rl2
 re
