@@ -24,3 +24,4 @@ shapely
 gym
 random
 keras-rl2
+re
